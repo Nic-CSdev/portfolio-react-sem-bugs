@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <div name='home' id="home" className='w-full h-screen bg-[#030507] home-content'>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='text-purple-700'>Hi, my name is</p>
+        <p className='text-purple-700'>Olá! Meu nome é</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Nicolas Coelho</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]  '>
-          I'm a 
+          Eu sou um 
         <TypeAnimation sequence={[
             'Web Developer',
             2000,
@@ -32,7 +32,7 @@ const Home = () => {
           
           <button className='text-white group px-6 py-3 my-2 flex items-center hover:bg-[#800080] hover:border-[#e94de9] button-home'> <i></i><span>
             <a href="#work">
-            View Work 
+            Ver Projetos 
             </a>
           </span>
             

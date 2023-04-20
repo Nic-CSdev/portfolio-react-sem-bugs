@@ -1,5 +1,4 @@
 import React from 'react'
-import Cv from './CV';
 
 const About = () => {
   return (
@@ -8,14 +7,14 @@ const About = () => {
             <div className='max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8'>
                 <div className='sm:text-right pb-8 pl-4'>
                     <p className='text-4xl font-bold inline border-b-4 border-purple-700'>
-                        About
+                        Sobre
                     </p>
                 </div>
                 <div></div>
             </div>
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-4 px-4'>
                 <div className='sm:text-right text-4xl font-bold'>
-                    <p>Hi. I'm Nicolas, nice to meet you. Please take a look around.</p>
+                    <p>Olá! Eu sou Nicolas, é um prazer tê-lo aqui. Por favor, dê uma olhada ao redor da página.</p>
                 </div>
                 <div>
                     <p>
@@ -24,8 +23,9 @@ const About = () => {
                 </div>
 
                 <button className='text-white group px-6 py-3 my-2 flex items-center hover:bg-[#800080] hover:border-[#e94de9] ver-curriculo'> <i></i><span>
-                    <a href="cv">
-                        View Work 
+                    <a href="cv" target='_blank'>
+                        Ver Currículo
+
                     </a>
                 </span>
                 </button>

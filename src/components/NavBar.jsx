@@ -20,27 +20,27 @@ const NavBar = () => {
                 <ul className="hidden md:flex header">
                     <li className="hover:border-2 bg-transparent">
                         <Link to="home" duration={500} >
-                            Home
+                            Início
                         </Link>
                     </li>
                     <li className="hover:border-2 bg-transparent">
                         <Link to="about" duration={500} >
-                            About
+                            Sobre
                         </Link>
                     </li>
                     <li className="hover:border-2 bg-transparent">
                         <Link to="skills" duration={500} >
-                            Skills
+                            Habilidades
                         </Link>
                     </li>
                     <li className="hover:border-2 bg-transparent">
                         <Link to="work" duration={500} >
-                            Work
+                            Projetos
                         </Link>
                     </li>
                     <li className="hover:border-2 bg-transparent">
                         <Link to="contact" duration={500} >
-                            Contact
+                            Contato
                         </Link>
                     </li>
                 </ul>

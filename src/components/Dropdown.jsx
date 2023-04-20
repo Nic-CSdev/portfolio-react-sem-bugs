@@ -13,11 +13,11 @@ const Dropdown = () => {
               <span className='left-icon'></span>
               <span className='right-icon'></span>
               <div className='items'>
-                <a href="#home" style={{'--i':'1'}}><span></span>Home</a>
-                <a href="#about" style={{'--i':'2'}}><span></span>About</a>
-                <a href="#skills" style={{'--i':'3'}}><span></span>Skills</a>
-                <a href="#work" style={{'--i':'4'}}><span></span>Work</a>
-                <a href="#contact" style={{'--i':'5'}}><span></span>Contact</a>
+                <a href="#home" style={{'--i':'1'}}><span></span>Início</a>
+                <a href="#about" style={{'--i':'2'}}><span></span>Sobre</a>
+                <a href="#skills" style={{'--i':'3'}}><span></span>Habilidades</a>
+                <a href="#work" style={{'--i':'4'}}><span></span>Projetos</a>
+                <a href="#contact" style={{'--i':'5'}}><span></span>Contato</a>
               </div>
               
           </div>
