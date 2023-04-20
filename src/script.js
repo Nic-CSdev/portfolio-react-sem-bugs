@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('load', () => {
   const dropdown = document.querySelector('.dropdown');
   if (dropdown) {
@@ -8,4 +9,5 @@ window.addEventListener('load', () => {
       dropdown.classList.toggle('active');
     });
   }
+})
 });
