@@ -1,10 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('load', () => {
   const dropdown = document.querySelector('.dropdown');
   if (dropdown) {
-    dropdown.addEventListener('click', () => {
-      dropdown.classList.toggle('active');
-    });
     dropdown.addEventListener('touchstart', () => {
       dropdown.classList.toggle('active');
     });
@@ -12,5 +8,4 @@ window.addEventListener('load', () => {
       dropdown.classList.toggle('active');
     });
   }
-})
 });
