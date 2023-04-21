@@ -59,7 +59,7 @@ const NavBar = () => {
                         </a>
                     </li>
                     <li >
-                        <a className="flex justify-between items-center w-full text-gray-300">
+                        <a href="https://github.com/Nic-CSdev" className="flex justify-between items-center w-full text-gray-300">
                              <FaGithub className="icone rounded-2xl" size={30}/>
                         </a>
                     </li>
