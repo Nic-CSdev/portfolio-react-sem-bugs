@@ -10,7 +10,7 @@ const Home = () => {
         <p className='text-purple-700'>Olá! Meu nome é</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Nicolas Coelho</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]  '>
-          Eu sou um 
+          Eu sou  
         <TypeAnimation sequence={[
             'Web Developer',
             2000,

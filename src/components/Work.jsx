@@ -10,7 +10,7 @@ const Work = () => {
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-purple-700'>
                     Projetos
                 </p>
-                <p className='py-6'>// Dê uma olhada em alguns dos meus projetos mais recentes</p>
+                <p className='py-6'>// Veja alguns dos meus projetos mais recentes</p>
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -33,11 +33,9 @@ const Work = () => {
 
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
-                             <a href="#work" target=''>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
                                     Em Breve
                                 </button>
-                             </a>
                         </div>
                     </div>
                 </div>
@@ -46,11 +44,9 @@ const Work = () => {
 
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
-                             <a href="#work" target=''>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
                                     Em Breve
                                 </button>
-                             </a>
                         </div>
                     </div>
                 </div>
@@ -59,11 +55,9 @@ const Work = () => {
 
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
-                             <a href="#work" target=''>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
                                     Em Breve
                                 </button>
-                             </a>
                         </div>
                     </div>
                 </div>
@@ -72,11 +66,9 @@ const Work = () => {
 
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
-                             <a href="#work" target=''>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
                                     Em Breve
                                 </button>
-                             </a>
                         </div>
                     </div>
                 </div>
@@ -85,11 +77,9 @@ const Work = () => {
 
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
-                             <a href="#work" target=''>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
                                     Em Breve
-                                </button>
-                             </a>
+                                </button>         
                         </div>
                     </div>
                 </div>
