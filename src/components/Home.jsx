@@ -26,7 +26,7 @@ const Home = () => {
           />
         </h2>
           
-        <p className='text-[#8892b0] py-4 max-w-[700px]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, nobis cupiditate! Libero laborum nostrum quidem similique, consectetur rem. Architecto sed ipsam neque dolorum asperiores voluptas libero itaque aliquid. Magnam, tempore!</p>
+        <p className='text-[#8892b0] py-4 max-w-[700px]'>Bem-vindo ao meu portfólio!!! Aqui você pode encontrar meus projetos, currículo, um pouco sobre mim e entrar em contato comigo. Aproveite e Volte Sempre!!!</p>
 
         <div>
           

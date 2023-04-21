@@ -18,7 +18,7 @@ const About = () => {
                 </div>
                 <div>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, architecto facere id error expedita debitis a. Sint eaque a nisi corporis doloribus. Repellendus magnam veniam eius dolores quam corporis nulla.
+                        No botão abaixo fica disponibilizado meu currículo para visualização, caso se interesse pelo meu trabalho. Mesmo se esse não for o caso, fique avontade para dar uma olhada.
                     </p>
                 </div>
 
