@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener('load', () => {
     const dropdown = document.querySelector('.dropdown');
     if (dropdown) {
       dropdown.addEventListener('click', () => {
