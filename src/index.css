@@ -154,6 +154,16 @@ height: 200px;
 
 .header{
   padding-left: 650px;
+
+}
+
+.header .item-header{
+  transition: 0.3s ease-in-out;
+  padding: 15px;
+}
+
+.header .item-header:hover{
+  background-color: #800080;
 }
 
 .dropdown{

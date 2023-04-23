@@ -12,7 +12,7 @@ const Contact = () => {
                 <input className='border-b-2 bg-transparent text-white p-2 inputbox' type="text" placeholder="Name" name="name" />
                 <input className='my-4 p-2 border-b-2 bg-transparent text-white' type="email" placeholder="Email" name="email" />
                 <textarea className='rounded-lg border-2 bg-transparent p-2 text-white' name="message" rows="10" placeholder='Message'></textarea>
-                <button className=' px-4 py-3 my-8 mx-auto flex items-center send-email'>Enviar Fomulário</button>
+                <button className=' px-4 py-3 my-8 mx-auto flex items-center send-email'>Enviar Formulário</button>
               </div>
           </form>
 
