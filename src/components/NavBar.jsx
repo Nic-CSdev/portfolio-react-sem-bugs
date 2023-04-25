@@ -17,7 +17,7 @@ const NavBar = () => {
                 <img src={Logo} alt="Logo image" style={{width:'170px', filter:'invert(1)'}} />
             </div>
          
-                <ul className="hidden md:flex header">
+                <ul className="hidden lg:flex header">
                     <li className="item-header">
                         <Link to="home" duration={500} >
                             Início

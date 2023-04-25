@@ -395,9 +395,20 @@ height: 200px;
  
 }
 
-@media (min-width: 720px){
+@media(max-width:1200px){
+  .header{
+    padding-left: 400px;
+  }
+}
+
+@media(min-width:1023px){
   .dropdown{
     display: none;
   }
-  
+}
+
+@media(max-width:420px){
+  .text-about{
+    font-size: calc(.8em + 1vw);
+  }
 }
