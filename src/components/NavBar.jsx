@@ -18,31 +18,31 @@ const NavBar = () => {
             </div>
          
                 <ul className="hidden lg:flex header">
-                    <li className="item-header">
-                        <Link to="home" duration={500} >
-                            Início
-                        </Link>
-                    </li>
-                    <li className="item-header">
-                        <Link to="about" duration={500} >
+                    <Link to="home" duration={500} >
+                        <li className="item-header">
+                            Início    
+                        </li>
+                    </Link>
+                    <Link to="about" duration={500} >
+                        <li className="item-header">
                             Sobre
-                        </Link>
-                    </li>
-                    <li className="item-header">
-                        <Link to="skills" duration={500} >
+                        </li>
+                    </Link>
+                    <Link to="skills" duration={500} >
+                        <li className="item-header">
                             Habilidades
-                        </Link>
-                    </li>
-                    <li className="item-header">
-                        <Link to="work" duration={500} >
+                        </li>
+                    </Link>
+                    <Link to="work" duration={500} >
+                        <li className="item-header">
                             Projetos
-                        </Link>
-                    </li>
-                    <li className="item-header">
-                        <Link to="contact" duration={500} >
+                        </li>
+                    </Link>
+                    <Link to="contact" duration={500} >
+                        <li className="item-header">
                             Contato
-                        </Link>
-                    </li>
+                        </li>
+                    </Link>
                 </ul>
         
 
