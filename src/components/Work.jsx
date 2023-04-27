@@ -2,11 +2,12 @@ import React from 'react'
 import WorkImg from '../assets/projeto-ob.png'
 import Projeto from '../assets/workImg.jpeg'
 import ProjetoLP from '../assets/projeto-lp.png'
+import ProjetoPokedex from '../assets/projeto-pokedex.png'
 
 const Work = () => {
   return (
     <div name='work' id='work' className='w-full md:h-screen text-gray-300 bg-[#030507] work-content'>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-28'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-purple-700'>
                     Projetos
@@ -42,14 +43,16 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{backgroundImage: `url(${Projeto})`}} className='shadow-lg shadow-[#641e75] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div style={{backgroundImage: `url(${ProjetoPokedex})`}} className='shadow-lg shadow-[#641e75] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
 
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
+                            <a href="https://nic-csdev.github.io/projeto-pokedex/" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
-                                    Em Breve
+                                    Ver Projeto
                                 </button>
+                            </a>
                         </div>
                     </div>
                 </div>

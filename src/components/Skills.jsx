@@ -8,7 +8,7 @@ import Tailwind from '../assets/Tailwind.png'
 const Skills = () => {
   return (
     <div name='skills' id='skills' className='bg-[#030507] text-gray-300 skills-content' >
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-28'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-purple-700'>Habilidades</p>
                 <p className='py-4'>// Algumas tecnologias com as quais eu trabalhei</p>
