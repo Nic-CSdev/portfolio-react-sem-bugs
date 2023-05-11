@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
-import { HiOutlineMail } from "react-icons/hi";
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import Logo from '../assets/Logo.png';
 import {Link} from 'react-scroll'
 import Dropdown from './Dropdown';
@@ -49,27 +48,6 @@ const NavBar = () => {
             <div onClick={handleClick} className='md:  z-10'>
                 {!nav ? <Dropdown /> : <Dropdown />}
             </div>
-
-            {/* Social Icons */}
-            <aside class="menu-lateral">
-                <ul>
-                    <li>
-                        <a className="flex justify-between items-center w-full text-gray-300">
-                            <FaLinkedin className="icone" size={30}/>
-                        </a>
-                    </li>
-                    <li >
-                        <a href="https://github.com/Nic-CSdev" target="_blank" className="flex justify-between items-center w-full text-gray-300">
-                             <FaGithub className="icone rounded-2xl" size={30}/>
-                        </a>
-                    </li>
-                    <li >
-                        <a className="flex justify-between items-center w-full text-gray-300">
-                            <HiOutlineMail className="icone rounded-lg " size={30}/>
-                        </a>
-                    </li>
-                </ul>
-            </aside>
         </div>
        
     )

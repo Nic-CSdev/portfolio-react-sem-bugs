@@ -1,10 +1,5 @@
 import React from 'react'
 import script from '../script';
-class Demo extends React.Component {
-componentDidMount () {
-    script("../script.js");
-    }
-}
 
 const Dropdown = () => {
   return (
@@ -22,7 +17,7 @@ const Dropdown = () => {
               
           </div>
       </div>
-      <script src='../script.js'></script></>
+      <script src={script}></script></>
   )
 }
 
