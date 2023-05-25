@@ -356,6 +356,52 @@ height: 200px;
   left: 80%;
 }
 
+.card .card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 6px 1px #8142BE, 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.card:hover .card-inner {
+  transform: rotateX(180deg);
+}
+
+.card {
+  height: 200px;
+  background-color: transparent;
+  text-align: center;
+  perspective: 1000px;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-back {
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1rem;
+  color: white;
+  transform: rotateX(180deg);
+}
 
 @media(max-width: 1280px){
   
