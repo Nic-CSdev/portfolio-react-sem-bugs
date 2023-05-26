@@ -3,21 +3,24 @@ import script from '../script';
 
 const Dropdown = () => {
   return (
-    <><div className='dropdown-btn'>
-          <div className='dropdown'> 
-              <span className='left-icon'></span>
-              <span className='right-icon'></span>
-              <div className='items'>
-                <a href="#home" style={{'--i':'1'}}><span></span>Início</a>
-                <a href="#about" style={{'--i':'2'}}><span></span>Sobre</a>
-                <a href="#skills" style={{'--i':'3'}}><span></span>Habilidades</a>
-                <a href="#work" style={{'--i':'4'}}><span></span>Projetos</a>
-                <a href="#contact" style={{'--i':'5'}}><span></span>Contato</a>
-              </div>
-              
-          </div>
-      </div>
-      <script src={script}></script></>
+    <div className="dropdown">
+      <nav>
+        <input type="checkbox" id="menu-hamburguer" ></input>
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          
+
+          <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#work">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+      </nav>
+    </div>
   )
 }
 

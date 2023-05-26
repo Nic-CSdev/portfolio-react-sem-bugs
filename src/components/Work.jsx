@@ -1,8 +1,8 @@
 import React from 'react'
 import WorkImg from '../assets/projeto-ob.png'
-import Projeto from '../assets/workImg.jpeg'
 import ProjetoLP from '../assets/projeto-lp.png'
 import ProjetoPokedex from '../assets/projeto-pokedex.png'
+import LPgrid from '../assets/lp-grid.png'
 
 const Work = () => {
   return (
@@ -17,8 +17,6 @@ const Work = () => {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
                 <div style={{backgroundImage: `url(${WorkImg})`}} className='shadow-lg shadow-[#641e75] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
                              <a href="https://nic-csdev.github.io/projeto-szpc/" target='_blank'>
@@ -31,8 +29,6 @@ const Work = () => {
                 </div>
 
                 <div style={{backgroundImage: `url(${ProjetoLP})`}} className='shadow-lg shadow-[#641e75] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
                             <a href="https://nic-csdev.github.io/projeto-landing-page/" target='_blank'>
@@ -43,12 +39,22 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                
                 <div style={{backgroundImage: `url(${ProjetoPokedex})`}} className='shadow-lg shadow-[#641e75] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-
                     <div className='opacity-0 group-hover:opacity-100 content-div2'>
                         <div className='pt-8 text-center'>
                             <a href="https://nic-csdev.github.io/projeto-pokedex/" target='_blank'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
+                                    Ver Projeto
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${LPgrid})`}} className='shadow-lg shadow-[#641e75] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100 content-div2'>
+                        <div className='pt-8 text-center'>
+                            <a href="https://nic-csdev.github.io/landing-page-grid/" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg btn-demo'>
                                     Ver Projeto
                                 </button>
