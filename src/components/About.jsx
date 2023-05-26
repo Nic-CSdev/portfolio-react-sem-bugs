@@ -1,4 +1,5 @@
 import React from 'react'
+import curriculo from '../assets/curriculo.pdf'
 
 const About = () => {
   return (
@@ -23,9 +24,8 @@ const About = () => {
                 </div>
 
                 <button className='text-white group px-6 py-3 my-2 flex items-center hover:bg-[#800080] hover:border-[#e94de9] ver-curriculo'> <i></i><span>
-                    <a href="cv" target='_blank'>
+                    <a href={curriculo} download="curriculo">
                         Ver Currículo
-
                     </a>
                 </span>
                 </button>
