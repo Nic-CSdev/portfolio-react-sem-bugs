@@ -1,13 +1,13 @@
 import React from 'react'
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/logo-no-background.png';
 import {Link} from 'react-scroll'
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className='w-full h-full flex justify-center items-center flex-col px-4 pb-12 bg-[#0b1014] text-white border-t-2 pl-16 z-10'>
+    <footer className='w-full h-full flex justify-center items-center flex-col px-4 pb-12 bg-[#030507] text-white border-t-2 pl-16 z-10'>
         <div>
-            <img src={Logo} alt="Logo image" style={{width:'170px', filter:'invert(1)'}} />
+            <img src={Logo} alt="Logo image" style={{width:'100px'}} className='py-4' />
         </div>
 
         <div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
-import Logo from '../assets/Logo.png';
+import Logo from '../assets/logo-no-background.png';
 import {Link} from 'react-scroll'
 import Dropdown from './Dropdown';
 
@@ -11,9 +11,9 @@ const NavBar = () => {
 
 
     return (
-       <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0b1014] text-gray-300 z-10 border-b-2 border-purple-700'>
+       <div className='w-full h-[80px] flex justify-between items-center px-4 text-gray-300 bg-[#030507] z-10'>
             <div>
-                <img src={Logo} alt="Logo image" style={{width:'170px', filter:'invert(1)'}} />
+                <img src={Logo} alt="Logo image" style={{width:'90px'}} className="py-2" />
             </div>
          
                 <ul className="hidden lg:flex header">

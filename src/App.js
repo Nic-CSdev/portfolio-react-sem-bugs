@@ -12,7 +12,7 @@ function App() {
     <div>
         <BrowserRouter>
         <Routes>
-          <Route path="" element={<><NavBar /><Home /><About /><Skills /><Work /><Contact /><Footer /></>} />
+          <Route path="" element={<><NavBar /><Home /><Skills /><Work /><Contact /><Footer /></>} />
         </Routes>
       </BrowserRouter>
       

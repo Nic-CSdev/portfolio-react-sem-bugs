@@ -1,5 +1,5 @@
 import React from 'react'
-import script from '../script';
+
 
 const Dropdown = () => {
   return (
